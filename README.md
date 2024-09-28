@@ -10,7 +10,7 @@ Locate the start.py file and open.
 
 ---------------------------- MEAL RESERVATION PROGRAM ----------------------------
 
-**For Mobile Devices**
+**To run the program on Mobile Devices**
 
 **Enter the following commands in Termux:**
 
