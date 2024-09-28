@@ -4,9 +4,11 @@
 
 Link: https://www.microsoft.com/store/productId/9NRWMJP3717K?ocid=pdpshare
 
-After the installation, click the windows key and search 'Command Prompt'
+Find the start.py and open the file.
 
-**Inside the Command Prompt enter the following:**
+**For Mobile Devices**
+
+**Enter the following commands in Termux:**
 
 apt update && apt upgrade
 
