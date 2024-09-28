@@ -4,7 +4,9 @@
 
 Link: https://www.microsoft.com/store/productId/9NRWMJP3717K?ocid=pdpshare
 
-Find the start.py and open the file.
+Download the start.py file.
+
+Locate the start.py file and open.
 
 ---------------------------- MEAL RESERVATION PROGRAM ----------------------------
 
