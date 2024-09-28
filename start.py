@@ -124,14 +124,13 @@ while True:
     print(Fore.YELLOW + "----------------------------------------\n" + Fore.RESET)
 
     while True:
-        again = input(Fore.GREEN + "Would you like to order again? (y/n): " + Fore.RESET).lower()
-        if again == 'y': 
-            os.system('cls' if os.name == 'nt' else 'clear')
-            break
-        elif again == 'n':
-            print(Fore.YELLOW + "\n----------------------------------------\n" + Fore.RESET)
-            print(Fore.GREEN + "Thank you for using the Program!" + Fore.RESET)
-            print(Fore.YELLOW + "\n----------------------------------------\n" + Fore.RESET)
-            exit()
-        else:
-            print(Fore.RED + "Invalid input! Please enter 'y' for yes or 'n' for no." + Fore.RESET)
+    again = input(Fore.GREEN + "Would you like to order again? (y/n): " + Fore.RESET).lower()
+    if again == 'y': 
+        break
+    elif again == 'n':
+        print(Fore.YELLOW + "\n----------------------------------------\n" + Fore.RESET)
+        print(Fore.GREEN + "Thank you for using the Program!" + Fore.RESET)
+        print(Fore.YELLOW + "\n----------------------------------------\n" + Fore.RESET)
+        exit()
+    else:
+        print(Fore.RED + "Invalid input! Please enter 'y' for yes or 'n' for no." + Fore.RESET)
