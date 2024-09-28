@@ -1,4 +1,5 @@
------------ MEAL RESERVATION PROGRAM -----------
+------------------------ MEAL RESERVATION PROGRAM ------------------------
+
 **To run the program, download python from microsoft store.**
 
 Link: https://www.microsoft.com/store/productId/9NRWMJP3717K?ocid=pdpshare
