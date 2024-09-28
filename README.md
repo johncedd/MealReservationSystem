@@ -1,4 +1,5 @@
 **To run the program, download python from microsoft store.**
+
 Link: https://www.microsoft.com/store/productId/9NRWMJP3717K?ocid=pdpshare
 
 After the installation, click the windows key and search 'Command Prompt'
