@@ -8,9 +8,19 @@ After the installation, click the windows key and search 'Command Prompt'
 
 **Inside the Command Prompt enter the following:**
 
-sudo apt update
+apt update && apt upgrade
 
-sudo apt install git
+Y
+
+apt install git
+
+Y
+
+pkg install python
+
+Y
+
+pip install colorama
 
 git clone https://github.com/johncedd/MealReservationSystem.git
 
