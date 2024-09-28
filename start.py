@@ -116,21 +116,21 @@ while True:
         if change >= 0:
             break
         else:
-            print(Fore.RED + f"Insufficient payment. You still owe ₱{-change}." + Fore.RESET)
-            print(Fore.YELLOW + "Please re-enter the payment." + Fore.RESET)
+            print(Fore.RED + f"Insufficient payment. You still owe " + Fore.BLUE + f"₱{-change}.")
+            print(Fore.RED + "Please re-enter the payment." + Fore.RESET)
             print(Fore.YELLOW + "----------------------------------------" + Fore.RESET)
 
     print(Back.RED + f" Change: ₱{change} " + Back.RESET)
     print(Fore.YELLOW + "----------------------------------------\n" + Fore.RESET)
 
     while True:
-    again = input(Fore.GREEN + "Would you like to order again? (y/n): " + Fore.RESET).lower()
-    if again == 'y': 
-        break
-    elif again == 'n':
-        print(Fore.YELLOW + "\n----------------------------------------\n" + Fore.RESET)
-        print(Fore.GREEN + "Thank you for using the Program!" + Fore.RESET)
-        print(Fore.YELLOW + "\n----------------------------------------\n" + Fore.RESET)
-        exit()
-    else:
-        print(Fore.RED + "Invalid input! Please enter 'y' for yes or 'n' for no." + Fore.RESET)
+        again = input(Fore.GREEN + "Would you like to order again? (y/n): " + Fore.RESET).lower()
+        if again == 'y': 
+            break
+        elif again == 'n':
+            print(Fore.YELLOW + "\n----------------------------------------\n" + Fore.RESET)
+            print(Fore.GREEN + "Thank you for using the Program!" + Fore.RESET)
+            print(Fore.YELLOW + "\n----------------------------------------\n" + Fore.RESET)
+            exit()
+        else:
+            print(Fore.RED + "Invalid input! Please enter 'y' for yes or 'n' for no." + Fore.RESET)
