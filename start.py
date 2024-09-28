@@ -1,3 +1,4 @@
+import os
 from colorama import init, Fore, Back, Style
 
 init()
@@ -122,11 +123,12 @@ while True:
 
     while True:
         again = input(Fore.GREEN + "Would you like to order again? (y/n): " + Fore.RESET).lower()
-        if again == 'y':
+        if again == 'y': 
+            os.system('cls' if os.name == 'nt' else 'clear')
             break
         elif again == 'n':
             print(Fore.YELLOW + "\n----------------------------------------\n" + Fore.RESET)
-            print(Fore.GREEN + "Thank you for using the Program. Goodbye!" + Fore.RESET)
+            print(Fore.GREEN + "Thank you for using the Program!" + Fore.RESET)
             print(Fore.YELLOW + "\n----------------------------------------\n" + Fore.RESET)
             exit()
         else:
