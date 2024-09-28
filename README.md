@@ -7,13 +7,13 @@ Link: https://www.microsoft.com/store/productId/9NRWMJP3717K?ocid=pdpshare
 After the installation, click the windows key and search 'Command Prompt'
 
 **Inside the Command Prompt enter the following:**
-
+_
 sudo apt update
 
 sudo apt install git
 
 git clone https://github.com/johncedd/MealReservationSystem.git
 
-python start.py
+python start.py_
 
 ---------------------------- MEAL RESERVATION PROGRAM ----------------------------
