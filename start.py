@@ -3,6 +3,8 @@ from colorama import init, Fore, Back, Style
 
 init()
 
+os.system('cls' if os.name == 'nt' else 'clear')
+
 while True: 
     print(Fore.YELLOW + "\n----------------------------------------" + Fore.RESET)
     print(Back.RED + "\t MEAL RESERVATION PROGRAM " + Back.RESET)
