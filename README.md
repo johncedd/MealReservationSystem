@@ -16,3 +16,4 @@ git clone https://github.com/johncedd/MealReservationSystem.git
 
 python start.py
 
+---------------------------- MEAL RESERVATION PROGRAM ----------------------------
