@@ -19,7 +19,7 @@ while True:
 
     while True:
         try:
-            mType = int(input("Meal: "))
+            mType = int(input("Meal (1, 2, or 3): "))
             if mType in [1, 2, 3]:
                 break
             else:
@@ -66,7 +66,7 @@ while True:
 
     while True:
         try:
-            mSet = int(input("Meal-Set: "))
+            mSet = int(input("Meal-Set (1, 2, or 3): "))
             if mSet in [1, 2, 3]:
                 break
             else:
